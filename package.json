@@ -1,0 +1,10 @@
+{
+  "name": "safe-redirect-target",
+  "version": "1.0.0",
+  "description": "Decide whether a next/return_to value is a safe same-origin redirect target. Catches //, /\\, encoded slashes, schemes, control characters.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": { "test": "node --test test/" },
+  "repository": { "type": "git", "url": "https://github.com/michaelcho87/safe-redirect-target" }
+}
